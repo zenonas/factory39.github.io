@@ -4,13 +4,23 @@ html, body { height: 100%; }
   display: flex;
   justify-content: center;
   flex-direction: column;
-  height: 100vh;
+  height: 100%;
   width: 100%;
 }
 
 img {
-  width: 150px;
+  width: 130px;
   margin: 16px auto;
+}
+
+.cta {
+  margin: 30px auto;
+}
+
+p.tagline {
+  margin: 10px auto;
+  font-weight: 300;
+  font-size: 13px;
 }
 
 p {
@@ -19,9 +29,15 @@ p {
   font-size: 14px;
   font-weight: 400;
   text-align: center;
-  margin: 16px auto;
+  margin: 5px auto;
 
 }
+
+.footer > p {
+  font-size: 10px;
+}
+
+.yellow { color: #FFCC00; }
 
 a, a:visited, a:hover {
   color: #FFCC00;
@@ -29,7 +45,7 @@ a, a:visited, a:hover {
   font-weight: 500;
 }
 
-p.footer {
+.footer {
   font-size: 10px;
   position: fixed;
   bottom: 0;
@@ -37,4 +53,5 @@ p.footer {
   left: 50%;
   -webkit-transform: translateX(-50%);
   transform: translateX(-50%)
+  margin: 16px auto;
 }
