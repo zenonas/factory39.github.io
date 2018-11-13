@@ -52,6 +52,6 @@ a, a:visited, a:hover {
   width: 80%;
   left: 50%;
   -webkit-transform: translateX(-50%);
-  transform: translateX(-50%)
+  transform: translateX(-50%);
   margin: 16px auto;
 }
